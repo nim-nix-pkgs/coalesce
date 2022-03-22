@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-coalesce-master.flake = false;
+  inputs.src-coalesce-master.ref   = "refs/heads/master";
   inputs.src-coalesce-master.owner = "piedar";
-  inputs.src-coalesce-master.ref   = "master";
   inputs.src-coalesce-master.repo  = "coalesce";
   inputs.src-coalesce-master.type  = "github";
   
