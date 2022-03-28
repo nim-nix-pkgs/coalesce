@@ -11,7 +11,6 @@
   inputs.src-coalesce-master.ref   = "refs/heads/master";
   inputs.src-coalesce-master.owner = "piedar";
   inputs.src-coalesce-master.repo  = "coalesce";
-  inputs.src-coalesce-master.dir   = "";
   inputs.src-coalesce-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
