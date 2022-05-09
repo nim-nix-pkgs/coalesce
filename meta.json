@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/piedar/coalesce",
   "refs": [
-    "fatal: unable to access 'https://github.com/piedar/coalesce/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/piedar/coalesce/': Failed to connect to github.com port 443 after 131459 ms: Connection timed out",
     ""
   ],
   "heads": []
